@@ -2368,12 +2368,20 @@
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
+			height: 20em;
 			width: 100%;
+			overflow: hidden;
 		}
 
 			.image.main img {
+				position: absolute;
 				width: 100%;
+				top: -5em;
 			}
+
+		.image.landscape {
+			height: 300px;
+		}
 
 			@media screen and (max-width: 736px) {
 
